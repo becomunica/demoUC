@@ -1,0 +1,98 @@
+h1 {
+  font-family: 'Garamond'
+}
+
+.itemBgOn {
+  background-image: url('img/estethic.jpg');
+}
+.itemBgTw {
+  background-image: url('img/makeup.jpg');
+}
+.itemHht {
+  height: 700px;
+  max-height: 700px;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+#bannerUp h1 {
+  font-family: 'Cormorant';
+  text-transform: uppercase;
+  letter-spacing: 0.8em;
+  color: white;
+  font-weight: 100;
+  font-size: 3em;
+}
+#categoriesDown h1 {
+  font-size: 3em;
+  font-weight: 100;
+  color: white;
+}
+.imgBgOn {
+  background-image: url(img/estetica.jpg);
+  height: 280px;
+  padding: 1em 3em 0em;
+  display: grid;
+  align-items: end;
+}
+.imgBgTw {
+  background-image: url(img/peluqueria.jpg);
+  height: 280px;
+  padding: 1em 3em 0em;
+  display: grid;
+  align-items: end;
+}
+.imgBgTh {
+  background-image: url(img/maquillaje.jpg);
+  height: 280px;
+  padding: 1em 3em 0em;
+  display: grid;
+  align-items: end;
+}
+.imgBgFo {
+  background-image: url(img/unas-esculpidas.jpg);
+  height: 280px;
+  padding: 1em 3em 0em;
+  display: grid;
+  align-items: end;
+}
+.Tright {
+  text-align: right;
+}
+.Mtop {
+  margin-top: 2rem;
+}
+.title {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+.title h1 {
+  color: black !important;
+  font-family: 'Lato';
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  font-size: 1.5em !important;
+  text-align: center !important;
+}
+
+/* ************** Media Queries **********************************/
+@media (max-width: 576px) {
+  .itemHht {
+    height: 300px;
+  }
+  #bannerUp h1 {
+    font-size: 1.5em;
+  }
+  .imgBgOn {
+    margin-bottom: 1.5em;
+  }
+  .imgBgTh {
+    margin-bottom: 1.5em;
+  }
+  #categoriesDown h1 {
+    text-align: center;
+  }
+  .menu {
+    display: none;
+  }
+}
